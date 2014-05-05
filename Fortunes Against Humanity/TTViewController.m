@@ -9,6 +9,7 @@
 #import "TTViewController.h"
 
 @interface TTViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *Label;
 
 @end
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.predictionLabel.frame = CGRectMake(50, 200, 100,100);
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +27,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed {
+    self.predictionLabel.text = @"Looks like death for all involved!";
+}
 @end
