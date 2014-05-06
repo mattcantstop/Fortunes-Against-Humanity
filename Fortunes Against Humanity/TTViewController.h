@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class TTFortunesAgainstHumanity;
+
 @interface TTViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *predictionLabel;
-@property (strong, nonatomic) NSArray *predictions;
+@property (strong,nonatomic) TTFortunesAgainstHumanity *fortunes;
 - (IBAction)buttonPressed;
 
 @end

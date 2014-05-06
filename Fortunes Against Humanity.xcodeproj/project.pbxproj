@@ -22,6 +22,7 @@
 		C97DA4ED1917CADC00174ACD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DA4CC1917CADC00174ACD /* UIKit.framework */; };
 		C97DA4F51917CADC00174ACD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C97DA4F31917CADC00174ACD /* InfoPlist.strings */; };
 		C97DA4F71917CADC00174ACD /* Fortunes_Against_HumanityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97DA4F61917CADC00174ACD /* Fortunes_Against_HumanityTests.m */; };
+		C97DA502191927C600174ACD /* TTFortunesAgainstHumanity.m in Sources */ = {isa = PBXBuildFile; fileRef = C97DA501191927C600174ACD /* TTFortunesAgainstHumanity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C97DA4F21917CADC00174ACD /* Fortunes Against HumanityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fortunes Against HumanityTests-Info.plist"; sourceTree = "<group>"; };
 		C97DA4F41917CADC00174ACD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C97DA4F61917CADC00174ACD /* Fortunes_Against_HumanityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fortunes_Against_HumanityTests.m; sourceTree = "<group>"; };
+		C97DA500191927C600174ACD /* TTFortunesAgainstHumanity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFortunesAgainstHumanity.h; sourceTree = "<group>"; };
+		C97DA501191927C600174ACD /* TTFortunesAgainstHumanity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFortunesAgainstHumanity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				C97DA4E11917CADC00174ACD /* TTViewController.m */,
 				C97DA4E31917CADC00174ACD /* Images.xcassets */,
 				C97DA4CF1917CADC00174ACD /* Supporting Files */,
+				C97DA500191927C600174ACD /* TTFortunesAgainstHumanity.h */,
+				C97DA501191927C600174ACD /* TTFortunesAgainstHumanity.m */,
 			);
 			path = "Fortunes Against Humanity";
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			files = (
 				C97DA4D91917CADC00174ACD /* TTAppDelegate.m in Sources */,
 				C97DA4D51917CADC00174ACD /* main.m in Sources */,
+				C97DA502191927C600174ACD /* TTFortunesAgainstHumanity.m in Sources */,
 				C97DA4E21917CADC00174ACD /* TTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
