@@ -10,6 +10,7 @@
 
 @interface TTViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *predictionLabel;
+@property (strong, nonatomic) NSArray *predictions;
 - (IBAction)buttonPressed;
 
 @end

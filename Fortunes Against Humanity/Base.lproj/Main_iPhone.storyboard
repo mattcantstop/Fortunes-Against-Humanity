@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="That'd be a good thing. So not gonna happen. Hello you nice guy." lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsd-tF-Gjb">
-                                <rect key="frame" x="20" y="240" width="352" height="69"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="That'd be a good thing. So not gonna happen. Hello you nice guy." textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="352" translatesAutoresizingMaskIntoConstraints="NO" id="hsd-tF-Gjb">
+                                <rect key="frame" x="20" y="240" width="352" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>

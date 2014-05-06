@@ -17,8 +17,15 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	self.predictionLabel.frame = CGRectMake(50, 200, 100,100);
+    self.predictions = [[NSArray alloc] initWithObjects: @"Certainly Great Times Will Be Had By All",
+                                                         @"All Involved Will Probably Die!",
+                                                         @"Forget That, You'll See A Unicorn Today!",
+                                                         @"Yes, and With Lots of Passion!",
+                                                         @"Why Not, You Would Die Anyway, Right?",
+                                                         @"Probably, But It Likely Would Happen Anyway",
+                                                         Nil
+                                                         ];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -28,6 +35,9 @@
 }
 
 - (IBAction)buttonPressed {
-    self.predictionLabel.text = @"Looks like death for all involved!";
+    int randomNumber = arc4random_uniform((int)self.predictions.count);
+    self.predictionLabel.text = [self.predictions objectAtIndex:randomNumber];
 }
+
+
 @end
