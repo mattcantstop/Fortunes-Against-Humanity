@@ -8,6 +8,8 @@
 
 #import "TTViewController.h"
 #import "TTFortunesAgainstHumanity.h"
+#import <AudioToolbox/AudioToolbox.h>
+
 
 @interface TTViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *Label;
@@ -16,8 +18,13 @@
 
 @implementation TTViewController
 
+    SystemSoundID soundEffect;
+
 - (void)viewDidLoad
 {
+    NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"crystal_ball" ofType:@"mp3"];
+    NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
+    AudioServicesCreateSystemSoundID(CFBridgingRetain(soundURL), &soundEffect);
     self.fortunes = [[TTFortunesAgainstHumanity alloc] init];
 }
 
@@ -31,8 +38,9 @@
 
 - (void) makePrediction {
     self.predictionLabel.text = [self.fortunes randomPrediction];
-    [UIView animateWithDuration:1.0f animations:^{
+    [UIView animateWithDuration:2.5f animations:^{
         self.predictionLabel.alpha = 1.0f;
+        AudioServicesPlaySystemSound(soundEffect);
     }];
 }
 

@@ -23,6 +23,10 @@
 		C97DA4F51917CADC00174ACD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C97DA4F31917CADC00174ACD /* InfoPlist.strings */; };
 		C97DA4F71917CADC00174ACD /* Fortunes_Against_HumanityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97DA4F61917CADC00174ACD /* Fortunes_Against_HumanityTests.m */; };
 		C97DA502191927C600174ACD /* TTFortunesAgainstHumanity.m in Sources */ = {isa = PBXBuildFile; fileRef = C97DA501191927C600174ACD /* TTFortunesAgainstHumanity.m */; };
+		C97DA504192104AC00174ACD /* crystal_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C97DA503192104AC00174ACD /* crystal_ball.mp3 */; };
+		C97DA506192104FF00174ACD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DA505192104FF00174ACD /* AudioToolbox.framework */; };
+		C97DA509192114F300174ACD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C97DA507192114F300174ACD /* Icon@2x.png */; };
+		C97DA50A192114F300174ACD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C97DA508192114F300174ACD /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		C97DA4F61917CADC00174ACD /* Fortunes_Against_HumanityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fortunes_Against_HumanityTests.m; sourceTree = "<group>"; };
 		C97DA500191927C600174ACD /* TTFortunesAgainstHumanity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFortunesAgainstHumanity.h; sourceTree = "<group>"; };
 		C97DA501191927C600174ACD /* TTFortunesAgainstHumanity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFortunesAgainstHumanity.m; sourceTree = "<group>"; };
+		C97DA503192104AC00174ACD /* crystal_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crystal_ball.mp3; path = ../crystal_ball.mp3; sourceTree = "<group>"; };
+		C97DA505192104FF00174ACD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C97DA507192114F300174ACD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C97DA508192114F300174ACD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97DA506192104FF00174ACD /* AudioToolbox.framework in Frameworks */,
 				C97DA4CB1917CADC00174ACD /* CoreGraphics.framework in Frameworks */,
 				C97DA4CD1917CADC00174ACD /* UIKit.framework in Frameworks */,
 				C97DA4C91917CADC00174ACD /* Foundation.framework in Frameworks */,
@@ -91,6 +100,8 @@
 				C97DA4F01917CADC00174ACD /* Fortunes Against HumanityTests */,
 				C97DA4C71917CADC00174ACD /* Frameworks */,
 				C97DA4C61917CADC00174ACD /* Products */,
+				C97DA507192114F300174ACD /* Icon@2x.png */,
+				C97DA508192114F300174ACD /* Icon.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +117,7 @@
 		C97DA4C71917CADC00174ACD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C97DA505192104FF00174ACD /* AudioToolbox.framework */,
 				C97DA4C81917CADC00174ACD /* Foundation.framework */,
 				C97DA4CA1917CADC00174ACD /* CoreGraphics.framework */,
 				C97DA4CC1917CADC00174ACD /* UIKit.framework */,
@@ -122,6 +134,7 @@
 				C97DA4E01917CADC00174ACD /* TTViewController.h */,
 				C97DA4E11917CADC00174ACD /* TTViewController.m */,
 				C97DA4E31917CADC00174ACD /* Images.xcassets */,
+				C97DA503192104AC00174ACD /* crystal_ball.mp3 */,
 				C97DA4CF1917CADC00174ACD /* Supporting Files */,
 				C97DA500191927C600174ACD /* TTFortunesAgainstHumanity.h */,
 				C97DA501191927C600174ACD /* TTFortunesAgainstHumanity.m */,
@@ -238,8 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C97DA4DF1917CADC00174ACD /* Main_iPad.storyboard in Resources */,
+				C97DA509192114F300174ACD /* Icon@2x.png in Resources */,
 				C97DA4E41917CADC00174ACD /* Images.xcassets in Resources */,
 				C97DA4DC1917CADC00174ACD /* Main_iPhone.storyboard in Resources */,
+				C97DA504192104AC00174ACD /* crystal_ball.mp3 in Resources */,
+				C97DA50A192114F300174ACD /* Icon.png in Resources */,
 				C97DA4D31917CADC00174ACD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
