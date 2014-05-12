@@ -13,6 +13,7 @@
 @interface TTViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *predictionLabel;
 @property (strong,nonatomic) TTFortunesAgainstHumanity *fortunes;
-- (IBAction)buttonPressed;
+
+- (void) makePrediction;
 
 @end
