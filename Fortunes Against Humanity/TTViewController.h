@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
 @class TTFortunesAgainstHumanity;
 
-@interface TTViewController : UIViewController
+@interface TTViewController : UIViewController <ADBannerViewDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *predictionLabel;
 @property (strong,nonatomic) TTFortunesAgainstHumanity *fortunes;
 

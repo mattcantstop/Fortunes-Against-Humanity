@@ -27,6 +27,7 @@
 		C97DA506192104FF00174ACD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DA505192104FF00174ACD /* AudioToolbox.framework */; };
 		C97DA509192114F300174ACD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C97DA507192114F300174ACD /* Icon@2x.png */; };
 		C97DA50A192114F300174ACD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C97DA508192114F300174ACD /* Icon.png */; };
+		C97DA50C1922543D00174ACD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DA50B1922543D00174ACD /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		C97DA505192104FF00174ACD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C97DA507192114F300174ACD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		C97DA508192114F300174ACD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C97DA50B1922543D00174ACD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97DA50C1922543D00174ACD /* iAd.framework in Frameworks */,
 				C97DA506192104FF00174ACD /* AudioToolbox.framework in Frameworks */,
 				C97DA4CB1917CADC00174ACD /* CoreGraphics.framework in Frameworks */,
 				C97DA4CD1917CADC00174ACD /* UIKit.framework in Frameworks */,
@@ -117,6 +120,7 @@
 		C97DA4C71917CADC00174ACD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C97DA50B1922543D00174ACD /* iAd.framework */,
 				C97DA505192104FF00174ACD /* AudioToolbox.framework */,
 				C97DA4C81917CADC00174ACD /* Foundation.framework */,
 				C97DA4CA1917CADC00174ACD /* CoreGraphics.framework */,

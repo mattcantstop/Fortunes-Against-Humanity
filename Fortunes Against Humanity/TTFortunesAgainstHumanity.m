@@ -38,6 +38,8 @@
                         @"I know, but I'm not telling",
                         @"What's in it for me?",
                         @"Nice try, but no.",
+                        @"That was a really good question! Now give the phone back to mommy",
+                        @"Yes! But only if you turn yourself and the phone upside down and ask again.",
                         nil];
     }
     return _predictions;
