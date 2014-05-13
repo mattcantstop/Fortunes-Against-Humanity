@@ -29,6 +29,15 @@
                         @"Of course you'd ask that question, ya freak!",
                         @"That's what she said. Seriously, just yesterday she said it!",
                         @"Your mom asked me that question once. It got weird.",
+                        @"Enough with the questions are you going to have my baby or not?",
+                        @"You never talk to me just to talk. You always want something!",
+                        @"Let me answer your question with a question: What are you wearing?",
+                        @"Stop shouting! Ask again later. I'm simply too hungover.",
+                        @"Why do you want to know? So many questions! Are you writing a book?",
+                        @"My dog seems to think so",
+                        @"I know, but I'm not telling",
+                        @"What's in it for me?",
+                        @"Nice try, but no.",
                         nil];
     }
     return _predictions;
